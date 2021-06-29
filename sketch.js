@@ -9,9 +9,10 @@ var heightIndex;
 
 var drawCount = 0;
 
-var randomDestination = Math.random();
+var resolution = 4;
+var sourceResolution = resolution / 2;
 
-let input;
+
 let img;
 
 function preload() {
@@ -26,19 +27,23 @@ function setup() {
   inputButton.elt.style.display = 'none';
 }
 
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+
 function draw() {
   if (img) {
     document.getElementById('sketchButtonContainer').style.display = 'none';
     inputButton.remove();
-    for (widthIndex = 0; widthIndex < canvasWidth; widthIndex ++) {
-      for (heightIndex = 0; heightIndex < canvasHeight; heightIndex += 4) {
-        image(img, widthIndex, heightIndex, 4, 4, Math.random() * canvasWidth * 10, Math.random() * canvasHeight * 10, 8, 8);
+    for (widthIndex = 0; widthIndex < canvasWidth; widthIndex+=resolution) {
+      for (heightIndex = 0; heightIndex < canvasHeight; heightIndex+=resolution) {
+        image(img, widthIndex, heightIndex, resolution, resolution, getRandomInt(img.width), getRandomInt(img.height), sourceResolution, sourceResolution);
       }
     }
     drawCount++;
-    document.getElementById('loadingText').innerHTML = drawCount + "%";
+    document.getElementById('loadingText').innerHTML = drawCount * 4 + "%";
 
-    if (drawCount == 100) {
+    if (drawCount == 25) {
       noLoop();
       document.getElementById('saveImageButton').style.display = 'inline-block';
     }
@@ -58,9 +63,4 @@ function handleFile(file) {
   } else {
     img = null;
   }
-}
-
-function windowResized() {
-  c.center();
-  inputButton.position(c.position(), 800);
 }

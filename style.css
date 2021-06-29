@@ -21,13 +21,16 @@
   margin-top: -1px;
 }
 
-#sketchButtonContainer {
+.button {
   display: inline-block;
   cursor: pointer;
   border: 1px solid black;
   border-radius: 100px;
   padding-left: 12px;
   padding-right: 12px;
+}
+
+#sketchButtonContainer {
   margin-bottom: 16px;
 
 }
@@ -43,11 +46,6 @@
 
 #saveImageButton {
   display: none;
-  cursor: pointer;
-  border: 1px solid black;
-  border-radius: 100px;
-  padding-left: 12px;
-  padding-right: 12px;
   margin-top: 16px;
 }
 
