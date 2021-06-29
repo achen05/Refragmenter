@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'VT323', monospace;
+  font-size: 18px;
+}
+
+
+.websiteContainer {
+  margin: 22px;
+  text-align: left;
+  max-width: 400px;
+}
+
+.moduleContainer {
+  border: 1px solid black;
+  width: inherit;
+  padding: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  margin-top: -1px;
+}
+
+#sketchButtonContainer {
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 100px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 16px;
+
+}
+
+.generatorContainer {
+  outline: 1px dotted black;
+}
+
+#sketchContainer {
+  width: 100%;
+  padding-bottom: -4px;
+}
+
+#saveImageButton {
+  display: none;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 100px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 16px;
+}
+
+#img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: -4px;
+}
+
+#slideshow {
+  padding: 0px;
+}
+
+#loadingText {
+  padding: 16px;
+  padding-top: 14px;
+  bottom: 0px;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  </head>
+  <body onload = "startTimer()">
+    <center>
+    <div class="websiteContainer">
+      <div class="moduleContainer">
+        <p>REFRAGMENTOR</p><br>
+        <p>An image <del>(de)</del>fragmentor.</p>
+      </div>
+      <div class="moduleContainer" id="slideshow">
+        <img id="img" src="images/Chanel Berkeley.jpeg"/>
+      </div>
+      <div class="moduleContainer">
+        <p>
+          INSTRUCTIONS:
+          <br><br>
+        1. Take or obtain an image of something meaningful to you.
+        <br><br>2. Upload your image to this website. A new image will be automatically generated. (Nothing will be saved or collected, this program runs locally).
+        <br><br>3. Save and do whatever you'd like with the image.
+        <br><br>Some suggestions include:
+        <br> - Print it out and use it like a talisman.
+        <br> - Make up a ritual and burn it.
+        <br> - Delete it.
+        <br> - Use it in a collage.
+        <br> - Refragment the refragmented image.
+        <br><br>Only you can see this image. It's yours now.
+        <br><br>Optional: You can also share it with Aldon if you'd like to be included in the website gallery and/or cute little slideshow above.
+        <br>
+        </p>
+      </div>
+      <div class="moduleContainer">
+        <label id="sketchButtonContainer">UPLOAD IMAGE</label>
+        <div class="generatorContainer">
+          <div id="sketchContainer"></div>
+          <p id="loadingText">Waiting for user to upload image...</p>
+        </div>
+        <p id="saveImageButton" onclick="saveFile()">SAVE IMAGE</p>
+
+      </div>
+      <div class="moduleContainer">
+        <p>
+          Designed and programmed by <a href="https://aldonchen.com">Aldon Chen</a> using P5.js.
+          <br><br>
+          Originally conceived as a project for MICA Forum 1 Fall 2020: "Camouflage."
+          <br>Instructor: Stephen Hendee.
+          <br><br>Revisited and redesigned 2021.
+        </p>
+      </div>
+
+    </div>
+    <script src="slideshow.js"></script>
+    <script src="p5.js"></script>
+    <script src="p5.min.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>
