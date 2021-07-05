@@ -15,10 +15,8 @@ function startTimer() {
 
 var images = [],
   x = -1;
-images[0] = "images/Chanel Berkeley.jpeg";
-images[1] = "images/Dani Davis.jpeg";
-images[2] = "images/Gill Davis.PNG";
-images[3] = "images/Kate Centerville, MA.jpeg";
-images[4] = "images/Katie Davis.jpeg";
-images[5] = "images/Kylie Belmont.png";
-images[6] = "images/Megan Redwood City .jpeg";
+images[0] = "images/1.png";
+images[1] = "images/2.png";
+images[2] = "images/3.png";
+images[3] = "images/4.png";
+images[4] = "images/5.png";
