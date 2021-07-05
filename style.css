@@ -30,7 +30,7 @@ body {
   height: 100vh;
   width: 100%;
   position: sticky;
-  top: 20%;
+  top: 100px;
   z-index: -1;
 }
 
@@ -115,6 +115,10 @@ body {
 
 
 @media only screen and (max-width: 500px) {
+  #websiteOpeningContainer {
+    top: 10%;
+  }
+
   #img {
     height: 300px;
   }
