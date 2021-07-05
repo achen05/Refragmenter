@@ -110,6 +110,7 @@ body {
   text-align: center;
   font-size: 20px;
   opacity: 0.5;
+  line-height: 16px;
 }
 
 
@@ -120,6 +121,14 @@ body {
 
   #img {
     height: 300px;
+  }
+
+  #topModule {
+    margin-bottom: 24px;
+  }
+
+  #scrollDownText {
+    line-height: 10px;
   }
 
 }
