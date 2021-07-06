@@ -13,10 +13,11 @@
   padding: 0px;
   font-family: 'NeueBit', monospace;
   font-size: 20px;
+  transition: 0.2s;
 }
 
 body {
-  background-color: #a3a375;
+  background-color: #c9c9c9;
 }
 
 .websiteContainer {
@@ -40,7 +41,7 @@ body {
   padding: 16px;
   padding-right: 16px;
   padding-bottom: 16px;
-  background-color: grey;
+  background-color: #f0f0f0;
   top: 64px;
   line-height: 22px;
   transition: 0.2s;
