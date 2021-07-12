@@ -41,9 +41,9 @@ function draw() {
       }
     }
     drawCount++;
-    document.getElementById('loadingText').innerHTML = drawCount * 4 + "%";
+    document.getElementById('loadingText').innerHTML = drawCount * 2 + "%";
 
-    if (drawCount == 25) {
+    if (drawCount == 50) {
       noLoop();
       document.getElementById('saveImageButton').style.display = 'inline-block';
     }
