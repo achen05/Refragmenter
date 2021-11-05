@@ -1,9 +1,4 @@
 @font-face {
-  font-family: Tiny;
-  src: url("fonts/TINY5x3-120.otf");
-}
-
-@font-face {
   font-family: NeueBit;
   src: url("fonts/NeueBit-Bold.otf");
 }
@@ -14,10 +9,11 @@
   font-family: 'NeueBit', monospace;
   font-size: 20px;
   transition: 0.2s;
+  color: white;
 }
 
 body {
-  background-color: #c9c9c9;
+  background-color: black;
 }
 
 .websiteContainer {
@@ -36,21 +32,22 @@ body {
 }
 
 .moduleContainer {
-  border: 1px solid black;
+  border: 1px solid white;
   width: inherit;
   padding: 16px;
   padding-right: 16px;
   padding-bottom: 16px;
-  background-color: #f0f0f0;
+  background-color: black;
   top: 64px;
   line-height: 22px;
   transition: 0.2s;
+  color: white;
 }
 
 .button {
   display: inline-block;
   cursor: pointer;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 100px;
   padding-left: 12px;
   padding-right: 12px;
@@ -63,7 +60,7 @@ body {
 }
 
 .generatorContainer {
-  outline: 1px dotted black;
+  outline: 1px dotted white;
 }
 
 #sketchContainer {
@@ -81,7 +78,7 @@ body {
   height: 384px;
   object-fit: cover;
   margin-bottom: 8px;
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 #slideshow {
