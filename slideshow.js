@@ -8,18 +8,18 @@ function displayNextImage() {
           }
 
 function startTimer() {
-  setInterval(displayNextImage, 20);
+  setInterval(displayNextImage, 30);
 }
 
 var images = [],
   x = -1;
-images[0] = "images/1.png";
-images[1] = "images/2.png";
-images[2] = "images/3.png";
-images[3] = "images/4.png";
-images[4] = "images/5.png";
-images[5] = "images/6.png";
-images[6] = "images/7.png";
-images[7] = "images/8.png";
-images[8] = "images/9.png";
+images[0] = "images/01.png";
+images[1] = "images/02.png";
+images[2] = "images/03.png";
+images[3] = "images/04.png";
+images[4] = "images/05.png";
+images[5] = "images/06.png";
+images[6] = "images/07.png";
+images[7] = "images/08.png";
+images[8] = "images/09.png";
 images[9] = "images/10.png";

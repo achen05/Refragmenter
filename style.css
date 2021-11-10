@@ -9,7 +9,7 @@
   font-family: 'NeueBit', monospace;
   font-size: 20px;
   transition: 0.2s;
-  color: #282E29;
+  color: #29332B;
 }
 
 body {
@@ -32,7 +32,7 @@ body {
 }
 
 .moduleContainer {
-  border: 1px solid #282E29;
+  border: 1px solid #29332B;
   width: inherit;
   padding: 16px;
   padding-right: 16px;
@@ -41,13 +41,13 @@ body {
   top: 64px;
   line-height: 22px;
   transition: 0.2s;
-  color: #282E29;
+  color: #29332B;
 }
 
 .button {
   display: inline-block;
   cursor: pointer;
-  border: 1px solid #282E29;
+  border: 1px solid #29332B;
   border-radius: 100px;
   padding-left: 12px;
   padding-right: 12px;
@@ -60,7 +60,7 @@ body {
 }
 
 .generatorContainer {
-  outline: 1px dotted #282E29;
+  outline: 1px dotted #29332B;
 }
 
 #sketchContainer {
@@ -78,7 +78,7 @@ body {
   height: 384px;
   object-fit: cover;
   margin-bottom: 8px;
-  border: 1px solid #282E29;
+  border: 1px solid #29332B;
 }
 
 #slideshow {
